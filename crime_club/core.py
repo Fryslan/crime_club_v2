@@ -43,7 +43,7 @@ def main_thread():
             try:
                 if driver.current_url == Values.login_page:
                     print('logging in')
-                    Login.login(driver, 'koehoal', 'tc6m4e')
+                    Login.login(driver, 'USERNAME', 'PASSWORD')
 
                 elif driver.current_url == Values.index_page or driver.current_url == Values.base_page:
                     print('navigatin to login page')
